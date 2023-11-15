@@ -5,13 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
   background-color: #BCCEFB;
+=======
+>>>>>>> 89de96929240d293e10cc1493bf38fd1eeb1a289
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+<<<<<<< HEAD
 
 
 .quiz-card {
@@ -58,3 +62,5 @@ code {
 .answer-button:hover {
   background-color: #f59794;
 }
+=======
+>>>>>>> 89de96929240d293e10cc1493bf38fd1eeb1a289
