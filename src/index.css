@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
+  background-color: #BCCEFB;
+=======
+>>>>>>> 89de96929240d293e10cc1493bf38fd1eeb1a289
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+<<<<<<< HEAD
+
+
+.quiz-card {
+
+  padding: 100px;
+  background-color: #BCCEFB;
+  border: 1px solid #BCCEFB;
+  border-radius: 5px;
+  
+}
+
+.question {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.question-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.answer {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.answer-button {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5px;
+  background-color: #e8e8e8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  cursor: pointer;
+  text-align :center; /* Add this line to align text to the left */
+  transition: background-color 0.3s ease;
+  
+}
+
+.answer-button:hover {
+  background-color: #f59794;
+}
+=======
+>>>>>>> 89de96929240d293e10cc1493bf38fd1eeb1a289
