@@ -1,5 +1,7 @@
 import React ,{useState} from 'react'
 import {Row, Col, Card} from 'antd'
+import List from './list'
+
 
 
     const Question =() => {
@@ -7,6 +9,8 @@ import {Row, Col, Card} from 'antd'
 	const nextQuestion = currentQuestion + 1
 	const [score ,setScore] = useState(0) /* เก็บคะแนนของผู้ใช้ */
 	const [showScore,setShowScore] = useState(false)
+
+
 
 const questions = [
     {
@@ -83,10 +87,8 @@ return (
                     <span className="questions">
                         Your score : {score} / {questions.length}
                     </span>
-                        <br/>
-                        <button onClick={()=>handleRe()}> Re-Button</button>
                     </Col>
-                </Row>
+                </Row> 
             )
             :(
                 <Row>

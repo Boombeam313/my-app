@@ -5,41 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-<<<<<<< HEAD
   background-color: #BCCEFB;
-=======
->>>>>>> 0c83db154517f8acafcc287c37e75e1a3ca67cb6
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-<<<<<<< HEAD
 
 
 .quiz-card {
 
-  padding: 16px;
+  padding: 100px;
   background-color: #BCCEFB;
   border: 1px solid #BCCEFB;
   border-radius: 5px;
+  
 }
 
 .question {
-  font-size: 30px;;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .question-text {
-  font-size: 30px;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
 .answer {
-  padding: 24px;
-  font-size: 30px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -49,18 +45,16 @@ code {
   width: 100%;
   padding: 20px;
   margin-bottom: 5px;
-  background-color: rgb(184, 201, 211);
-  border: 1px solid #ffffff;
+  background-color: #e8e8e8;
+  border: 1px solid #ccc;
   border-radius: 5px;
 
   cursor: pointer;
-  text-align: center; /* Add this line to align text to the left */
+  text-align :center; /* Add this line to align text to the left */
   transition: background-color 0.3s ease;
   
 }
 
 .answer-button:hover {
-  background-color: #b0abab;
+  background-color: #f59794;
 }
-=======
->>>>>>> 0c83db154517f8acafcc287c37e75e1a3ca67cb6
